@@ -17,6 +17,7 @@ import {MenuService} from './app/menu';
 import {LeftPage} from './leftpage/leftPage';
 import {ContentPage} from './component/contentpage/contentpage';
 import {SidePage} from './component/sidepage/sidepage';
+import {TextPage} from './component/textpage/textpage';
 
 // Enable production mode when in production mode.
 if (process.env.NODE_ENV === 'production') {
@@ -40,6 +41,7 @@ if (ons.platform.isIPhoneX()) {
         LeftPage,
         ContentPage,
         SidePage,
+        TextPage,
     ],
     entryComponents: [
         First,
@@ -47,6 +49,7 @@ if (ons.platform.isIPhoneX()) {
         LeftPage,
         ContentPage,
         SidePage,
+        TextPage,
     ],
     providers: [MenuService],
     bootstrap: [

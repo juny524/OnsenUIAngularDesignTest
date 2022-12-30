@@ -12,6 +12,7 @@ import {
   ViewChild,
   OnsenModule,
   NgModule,
+  OnsNavigator,
   CUSTOM_ELEMENTS_SCHEMA
 } from 'ngx-onsenui';
 
